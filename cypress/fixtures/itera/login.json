@@ -1,0 +1,5 @@
+{
+    "login_failed_msg" : "Wrong username or password",
+    "username_required_msg" : "Please enter username",
+    "password_required_msg" : "Please enter password"
+}

@@ -1,0 +1,14 @@
+{
+    "nameCust" : "Zafina testing 1",
+    "companyCust" : "ABC Company",
+    "addressCust" : "ABC Street",
+    "cityCust" : "DKI Jakarta",
+    "phoneCust" : "081256987",
+    "emailCust" : "zafina@yopmail.com",
+    "editNameCust" : "Zafina testing 1 edit",
+    "editCompanyCust" : "ABC Company edit",
+    "editAddressCust" : "ABC Street edit",
+    "editCityCust" : "DKI Jakarta testing",
+    "editPhoneCust" : "08125698799",
+    "editEmailCust" : "zafinaeditemail@yopmail.com"
+}

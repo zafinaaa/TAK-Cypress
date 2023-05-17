@@ -1,0 +1,12 @@
+{
+    "firstName_error_msg" : "Please enter first name",
+    "surName_error_msg" : "Please enter surname",
+    "userName_error_msg" : "Please enter username",
+    "password_error_msg" : "Please enter password",
+    "firstName" : "Zafina",
+    "surnName" : "testing",
+    "userNameExisted" : "testing01",
+    "password_do_not_match_msg" : "'Confirm password' and 'Password' do not match.",
+    "username_existed_msg" : "Username already exist",
+    "success_Msg" : "Registration Successful"
+}
