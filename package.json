@@ -1,0 +1,18 @@
+{
+  "name": "tak_final_exercise",
+  "version": "1.0.0",
+  "description": "TAK final exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zafina aisyah",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.12.0",
+    "cypress-mochawesome-reporter": "^3.4.0"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
