@@ -35,13 +35,13 @@ describe('Verify Sign Up Scenario', () => {
     cy.input_data(SingUpPage.firstNameTxt, signUp.firstName)
     cy.input_data(SingUpPage.surNameTxt, signUp.surnName)
     cy.input_data(BaseItera.userNameTxt, signUp.userNameExisted)
-    cy.input_data(BaseItera.passwordTxt, signUp.validPassword)
-    cy.input_data(SingUpPage.confrimPasswordTxt, signUp.validPassword)
+    cy.input_data(BaseItera.passwordTxt, baseValue.validPassword)
+    cy.input_data(SingUpPage.confrimPasswordTxt, baseValue.validPassword)
     cy.get(SingUpPage.submitBtn).should('be.visible').click()
     cy.verify_error_msg(SingUpPage.userNameExisted, signUp.username_existed_msg)
   })
   
-  it.only('TC4 Verify user success sign up  with filling all the mandatory fields', () => {
+  it('TC4 Verify user success sign up  with filling all the mandatory fields', () => {
     cy.input_data(SingUpPage.firstNameTxt, signUp.firstName)
     cy.input_data(SingUpPage.surNameTxt, signUp.surnName)
     cy.input_data(BaseItera.userNameTxt, faker.random.alphaNumeric(10))
