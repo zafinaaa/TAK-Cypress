@@ -37,7 +37,7 @@ describe('Verify Login Scenario', () => {
         cy.verify_error_msg(LoginPage.loginFaledMsg, login.login_failed_msg)
     })
 
-    it.only('TC4 User can login with filling valid username and password and logout', () => {
+    it('TC4 User can login with filling valid username and password and logout', () => {
 
         cy.input_data(BaseItera.userNameTxt, baseValue.validUsername)
         cy.input_data(BaseItera.passwordTxt, baseValue.validPassword)
