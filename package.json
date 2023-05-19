@@ -4,7 +4,12 @@
   "description": "TAK final exercise",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "run-login": "npx cypress run --spec 'cypress/e2e/itera/login.cy.js'",
+    "run-signup": "npx cypress run --spec 'cypress/e2e/itera/signUp.cy.js'",
+    "run-dashboard": "npx cypress run --spec 'cypress/e2e/itera/dashboard.cy.js'",
+    "run-itera": "npx cypress run --spec 'cypress/e2e/itera/*.js'"
   },
   "author": "zafina aisyah",
   "license": "ISC",
